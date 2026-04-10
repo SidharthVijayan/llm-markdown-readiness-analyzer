@@ -2,11 +2,10 @@
   "manifest_version": 3,
   "name": "LLM Markdown Readiness Analyzer",
   "version": "1.0",
-  "description": "Analyze page structure for LLM extractability, markdown readiness, and token efficiency.",
+  "description": "Analyze Markdown structure, LLM extractability, token efficiency, and conversion readiness.",
   "permissions": ["activeTab", "scripting"],
   "action": {
-    "default_popup": "popup.html",
-    "default_title": "LLM Readiness"
+    "default_popup": "popup.html"
   },
   "content_scripts": [
     {
