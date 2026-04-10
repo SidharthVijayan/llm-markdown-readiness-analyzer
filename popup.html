@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LLM Readiness</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🔍 LLM Readiness</h1>
+  <div id="score">Analyzing...</div>
+
+  <div class="section">
+    <h2>Scores</h2>
+    <p>🧱 Markdown: <span id="markdown"></span></p>
+    <p>🧠 Extractability: <span id="extract"></span></p>
+    <p>⚡ Token Efficiency: <span id="token"></span></p>
+    <p>🧲 Conversion: <span id="conversion"></span></p>
+  </div>
+
+  <div class="section">
+    <h2>🚨 Top Issues</h2>
+    <ul id="issues"></ul>
+  </div>
+
+  <div class="section">
+    <h2>✅ Quick Fixes</h2>
+    <ul id="fixes"></ul>
+  </div>
+
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>
