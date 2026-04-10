@@ -1,23 +1,75 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #0f172a;
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  background: linear-gradient(135deg, #020617, #0f172a);
   color: #e2e8f0;
-  width: 300px;
-  padding: 10px;
+  width: 360px;
 }
 
-h1 {
+.app {
+  padding: 16px;
+}
+
+.header h1 {
+  margin: 0;
   font-size: 18px;
-  margin-bottom: 10px;
 }
 
-.section {
-  margin-top: 15px;
+.subtitle {
+  font-size: 11px;
+  color: #94a3b8;
 }
 
-h2 {
-  font-size: 14px;
-  margin-bottom: 5px;
+.score-card {
+  text-align: center;
+  margin: 16px 0;
+}
+
+.score-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: conic-gradient(#22c55e 0deg, #1e293b 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.score-label {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.card {
+  background: rgba(15, 23, 42, 0.85);
+  padding: 12px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  backdrop-filter: blur(6px);
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.card p {
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.full {
+  margin-top: 12px;
 }
 
 ul {
@@ -26,5 +78,5 @@ ul {
 
 li {
   font-size: 12px;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
