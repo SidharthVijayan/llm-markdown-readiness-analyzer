@@ -4,6 +4,7 @@ function getText() {
 
 function getParagraphStats() {
   const paragraphs = [...document.querySelectorAll("p")];
+
   const totalWords = paragraphs.reduce((acc, p) => {
     return acc + p.innerText.split(/\s+/).length;
   }, 0);
